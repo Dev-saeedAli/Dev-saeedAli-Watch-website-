@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hertz Watches</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <!-- ---------------header-------------------- -->
+    <header>
+        <a href="./index.html"><div class="logo-container">
+            <h1>Hertz!</h1>
+        </div></a>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#straps">Straps</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./contact-form.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <i class="fas fa-search" id="btn" onclick="show_hide()"></i>
+            <a href="./login.html"><i class="fas fa-user"></i></a>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <section>
+            <div class="search-container" id="search">
+                <input type="text" placeholder="Search for items.." id="field">
+                <label for="field"></label>
+            </div>
+        </section>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- --------------BG-section---------------- -->
+    <section class="bg-img" id="home">
+        <div class="main-container">
+            <h2>New watches Available</h2>
+            <input type="submit" class="btn" value="Shop Now">
+        </div>
+    </section>
+    <!-- --------------------Products-------------- -->
+
+    <main>
+        <section>
+            <div class="heading" id="shop">
+                <h3>Products</h3>
+            </div>
+            <div class="item-container">
+                <div class="items">
+                    <img src="./images/analog_men_main.jpg" alt="">
+                    <h3>Analogue-Men</h3>
+                    <a href="./product-details.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/basel_world_main.jpg" alt="">
+                    <h3>Basel-World</h3>
+                    <a href="./product_details2.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/blood_oxygen-main.jpg" alt="">
+                    <h3>Blood-Oxygen</h3>
+                    <a href="./product_details3.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/casio_main.jpeg" alt="">
+                    <h3>Casio</h3>
+                    <a href="./product-details4.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/chronograph_small2.jpg" alt="">
+                    <h3>Chronograph</h3>
+                    <a href="./product-details5.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/origin_small4.jpg" alt="">
+                    <h3>Origin</h3>
+                    <a href="./product-details6.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/undone_challenge_main.jpg" alt="">
+                    <h3>Undone-challenge</h3>
+                    <a href="./product-details7.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <img src="./images/vogue_paris_small1.jpg" alt="">
+                    <h3>Vogue-Paris</h3>
+                    <a href="./product-details8.html">
+                        <div class="overlay">
+                            <p>Click here to view more</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- -----------------------------limited-Edition------------------- -->
+
+    <section>
+        <div class="hero-1">
+            <div class="left">
+                <h4>Limited Edition</h4>
+                <p>YOLAKO</p>
+                <a href="./limited_editon.html"><button type="button" class="btn">Explore</button></a>
+            </div>
+            <div class="right">
+                <a href="./limited_editon.html"><img src="./images/keystar-main.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <!-- -----------------------------Mens-Watch------------------- -->
+
+        <div class="hero-2">
+            <div class="left">
+                <h4>Watches For Men</h4>
+                <p>Top Picks For Men</p>
+                <a href="./mens-watch.html"><button type="button" class="btn">Explore</button></a>
+            </div>
+            <div class="right">
+                <a href="./mens-watch.html"><img src="./images/men_intro.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <!-- -----------------------------Women-Watch------------------- -->
+
+        <div class="hero-3">
+            <div class="left">
+                <h4>Watches For Women</h4>
+                <p>Top Picks For Women</p>
+                <a href="./women-watch.html"><button type="button" class="btn">Explore</button></a>
+            </div>
+            <div class="right">
+                <a href="./women-watch.html"><img src="./images/women_intro.jpg" alt="">
+            </div></a>
+        </div>
+    </section>
+
+    <!-- ------------------------Straps-Section------------------- -->
+
+    <section>
+        <div class="heading" id="straps">
+            <h4>Watch Straps</h4>
+        </div>
+        <div class="strap_container">
+            <div class="strap_cards">
+                <img src="./images/watch_straps1.jpg" alt="">
+                <h5>Yellow Straps</h5>
+                <p>Dhrs 22.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps2.jpg" alt="">
+                <h5>Red Straps</h5>
+                <p>Dhrs 24.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps3.jpeg" alt="">
+                <h5>Grey Straps</h5>
+                <p>Dhrs 23.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps4.jpg" alt="">
+                <h5>Dark-blue Straps</h5>
+                <p>Dhrs 32.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps5.jpg" alt="">
+                <h5>Ash Straps</h5>
+                <p>Dhrs 22.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps6.jpg" alt="">
+                <h5>Brown Straps</h5>
+                <p>Dhrs 22.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps7.jpg" alt="">
+                <h5>Neuro Straps</h5>
+                <p>Dhrs 22.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+            <div class="strap_cards">
+                <img src="./images/watch_straps8.jpg" alt="">
+                <h5>Orange Straps</h5>
+                <p>Dhrs 33.00</p>
+                <div class="overlay">
+                    <button type="button" class="btn">Click Here</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- -----------------------------Testimonials------------------- -->
+    
+    <section>
+        <div class="heading">
+            <h4>Testimonials..</h4>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial_info">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <p>Wow! The watch is awesome.I have tried it one time and it was so comfortable and good looking.It
+                        was so cheap to buy and have good quality.Congrats on your effort in sale of this product. Fell
+                        free to visit there site for more information.
+                    </p>
+                    <img src="./images/user_emily.png" alt="">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <p class="para">- Emily shah</p>
+                </div>
+            </div>
+            <div class="testimonial_info">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <p>Wow! The watch is awesome.I have tried it one time and it was so comfortable and good looking.It
+                        was so cheap to buy and have good quality.Congrats on your effort in sale of this product. Fell
+                        free to visit there site for more information.
+                    </p>
+                    <img src="./images/user_jhon.png" alt="">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <p class="para">- Zarook</p>
+                </div>
+            </div>
+            <div class="testimonial_info">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <p>Wow! The watch is awesome.I have tried it one time and it was so comfortable and good looking.It
+                        was so cheap to buy and have good quality.Congrats on your effort in sale of this product. Fell
+                        free to visit there site for more information.
+                    </p>
+                    <img src="./images/user-1.png" alt="">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <p class="para">- Mike Scheme</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------------NewsLetter------------------- -->
+    
+    <section>
+        <div class="heading">
+            <h4>Newsletter..</h4>
+        </div>
+        <div class="newsletter-container">
+            <div class="newsletter_info">
+                <h6>Sign up to our newsletter to be the first to know about our latest news and get access to exclusive
+                    offers, AND receive a 10% discount code to use on your first order with us.</h6>
+                    <input type="email" name="input-field" placeholder="Enter your Email" id="input-field">
+                    <label for="input-field"></label>
+                    <button type="submit" class="btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------Footer------------------- -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h6>HOME</h6>
+                <ul>
+                    <li><a href="./index.html"> Home </a></li>
+                    <li><a href="./index.html">Shop </a></li>
+                    <li><a href="./index.html">About Us </a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h6>SHOP</h6>
+                <ul>
+                    <li><a href="./product-details.html">
+                            Analogue-Men</a></li>
+
+                    <li><a href="./product_details2.html">
+                            Basel-World</a></li>
+
+                    <li><a href="./product_details3.html">
+                            Blood-Oxygen</a></li>
+
+                    <li><a href="./product-details4.html">
+                            Casio G-Stock</a></li>
+
+                    <li><a href="./product-details5.html">
+                            Chronograph</a></li>
+
+                    <li><a href="./product-details6.html">
+                            Origin</a></li>
+
+                    <li><a href="./product-details7.html">
+                            Undone Challenge</a></li>
+
+                    <li><a href="./product-details8.html">
+                            Vogue-Paris</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h6>Customer Service</h6>
+                <ul>
+                    <li><a href="./contact-form.html"> Contact Us</a></li>
+                    <li>Cash on Delivery Policy</li>
+                    <li>Refund Policy</li>
+                    <li>Shipping Policy</li>
+                    <li>Terms Of Policy</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h6>Social Media</h6>
+                <ul>
+                    <li><a href="https://www.facebook.com"> Facebook</li>
+                    </a>
+                    <li><a href="https://www.whatsapp.com">Whatsapp</li>
+                    </a>
+                    <li><a href="https://www.twitter.com">Twitter</li>
+                    </a>
+                    <li><a href="https://www.snapchat.com">SnapChat</li>
+                    </a>
+                    <li><a href="https://www.snapchat.com">Instagram</li>
+                    </a>
+                    <li><a href="https://pinterset.com">Pinterest</li>
+                    </a>
+                    <li><a href="https://www.linkedin.com">Linkedin</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <h5>Copyright&copy; www.hertz.com All Rights Reserved.</h5>
+    </footer>
+
+    <!-- ----------------Js-------------------------- -->
+
+    <script src="./index.js"></script>
+</body>
+</html>

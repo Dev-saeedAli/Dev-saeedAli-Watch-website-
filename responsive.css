@@ -1,0 +1,382 @@
+
+@media screen and (max-width:910px) {
+    .testimonial_info{
+        width: 50%;
+    }
+    #input-field{
+        width: 60%;
+    }
+    .newsletter_info .btn{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .items{
+        max-width: 33%;
+    }
+    .strap_cards{
+        width: 30%;
+    }
+    #input-field{
+        width: 60%;
+    }
+    .newsletter_info .btn{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        justify-content: center;
+        transform: translateX(-760px);
+        transition: all .4s ease-in-out;
+    }
+    .nav-list li a {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        transition: .3s ease-in-out;
+
+    }
+    ul li a:hover{
+        color: grey !important;
+    }
+    ul li a:hover::after{
+        display: none;
+    }
+    .hamburger{
+        display:flex ;
+    }
+    .active{
+        transform: translateX(0px);
+    }
+    #input-field{
+        width: 60%;
+    }
+    .newsletter_info .btn{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px){
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        justify-content: center;
+        transform: translateX(-760px);
+        transition: all .4s ease-in-out;
+    }
+    .nav-list li a {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        transition: .3s ease-in-out;
+
+    }
+    ul li a:hover{
+        color: grey !important;
+    }
+    ul li a:hover::after{
+        display: none;
+    }
+    .hamburger{
+        display:flex ;
+    }
+    .active{
+        transform: translateX(0px);
+    }
+    .testimonial_info{
+        width: 100%;
+    }
+    .items{
+        max-width: 50%;
+    }
+    .strap_cards{
+        width: 50%;
+    }
+    .hero-1 .left,.hero-2 .left,.hero-3 .left{
+        width: 100%;
+        margin: 40px auto;
+        order: 1;
+    }
+    .hero-1 .right,.hero-2 .right,.hero-3 .right{
+        width: 100%;
+        order: 2;
+        margin: 40px auto;
+
+    }
+    #input-field{
+        width: 60%;
+    }
+    .newsletter_info .btn{
+        width: 60%;
+    }
+
+
+}
+@media screen and (max-width:500px){
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        justify-content: center;
+        transform: translateX(-760px);
+        transition: all .4s ease-in-out;
+    }
+    .nav-list li a {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        transition: .3s ease-in-out;
+
+    }
+    ul li a:hover{
+        color: grey !important;
+    }
+    ul li a:hover::after{
+        display: none;
+    }
+    .hamburger{
+        display:flex ;
+    }
+    .active{
+        transform: translateX(0px);
+    }
+    .items{
+        max-width: 100%;
+    }
+    .strap_cards{
+        width: 100%;
+    }
+    #input-field{
+        width: 60%;
+    }
+    .newsletter_info .btn{
+        width: 60%;
+    }
+    .newsletter_info h6{
+        font-size: 12px;
+    }
+
+}
+/* ----------------All product page------------------ */
+@media screen and (max-width:786px) {
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        justify-content: center;
+        transform: translateX(-760px);
+        transition: all .4s ease-in-out;
+    }
+    .nav-list li a {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        transition: .3s ease-in-out;
+
+    }
+    ul li a:hover{
+        color: grey !important;
+    }
+    ul li a:hover::after{
+        display: none;
+    }
+    .hamburger{
+        display:flex ;
+    }
+    .active{
+        transform: translateX(0px);
+    }
+    .product-container{
+        flex-direction: column;
+    }
+    .col-1{
+        width: 60%;
+        margin-top: 60px;
+    }
+    .col-2{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn_1{
+        width: 40%;
+        font-size: 16px;
+    }
+    .btn_2{
+        width: 40%;
+        font-size: 16px;
+    }
+    .col-1-small img{
+        max-width: 30%;
+    }
+    #productImg{
+        width: 100%;
+    }
+}
+@media screen and (max-width:786px){
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        justify-content: center;
+        transform: translateX(-760px);
+        transition: all .4s ease-in-out;
+    }
+    .nav-list li a {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        transition: .3s ease-in-out;
+
+    }
+    ul li a:hover{
+        color: grey !important;
+    }
+    ul li a:hover::after{
+        display: none;
+    }
+    .hamburger{
+        display:flex ;
+    }
+    .active{
+        transform: translateX(0px);
+    }
+    .col-2 .para-2{
+        font-size: 12px;
+    }
+    .col-2{
+        font-size: 17px;
+    }
+    .btn_1{
+        width: 40%;
+        font-size: 13px;
+    }
+    .btn_2{
+        width: 40%;
+        font-size: 13px;
+    }
+    .col-1-small img{
+        max-width: 35%;
+    }
+    #productImg{
+        width: 100%;
+    }
+    footer h5{
+        font-size: 9px;
+
+    }
+}
+
+/* -------------------Contact-form-------------- */
+    @media screen and (max-width:810px){
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            right: 0%;
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            justify-content: center;
+            transform: translateX(-760px);
+            transition: all .4s ease-in-out;
+        }
+        .nav-list li a {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            display: block;
+            transition: .3s ease-in-out;
+    
+        }
+        ul li a:hover{
+            color: grey !important;
+        }
+        ul li a:hover::after{
+            display: none;
+        }
+        .hamburger{
+            display:flex ;
+        }
+        .active{
+            transform: translateX(0px);
+        }
+        .contact-container{
+            flex-direction: column-reverse;
+        }
+        .row-1{
+            width: 100%;
+            margin: auto;
+        }
+        .row-2{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:400px){
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            right: 0%;
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            justify-content: center;
+            transform: translateX(-760px);
+            transition: all .4s ease-in-out;
+        }
+        .nav-list li a {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            display: block;
+            transition: .3s ease-in-out;
+    
+        }
+        ul li a:hover{
+            color: grey !important;
+        }
+        ul li a:hover::after{
+            display: none;
+        }
+        .hamburger{
+            display:flex ;
+        }
+        .active{
+            transform: translateX(0px);
+        }
+        .row-2 .input-form{
+            width: 90%;
+        }
+       textarea{
+           max-width: 90%;
+       }
+    }
